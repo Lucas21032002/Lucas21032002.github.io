@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  p {
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  h2 {
+    font-family: "Martel", serif;
+  }
+  
+  hr {
+    background-color: #ca9e67;
+    height: 3px;
+  }
+  
+  .banner {
+    position: relative;
+    background: url(img/cadeiras.png);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .primeirologo {
+    width: 100%;
+    padding: 10px;
+    border-bottom: solid #ca9e67 1px;
+  }
+  
+  .banner1 {
+    position: relative;
+    background: #000000;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 200px;
+  }
+  
+  section {
+    padding: 100px;
+  }
+  
+  .banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+  
+  .banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  
+  .banner h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #d3d3d3;
+    transition: 0.5s;
+  }
+  
+  header {
+    color: #fff;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    height: 20px;
+  }
+  
+  header ul {
+    display: flex;
+    position: relative;
+  }
+  
+  header ul li {
+    position: relative;
+    list-style: none;
+  }
+  
+  header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+  }
+  
+  .heading h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contentBx {
+    padding-top: 50px;
+  }
+  
+  .contentBx h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contentBx p {
+    margin-left: 3px;
+    color: #fff;
+  }
+  
+  #imagem {
+    width: 400px;
+    height: 300px;
+  }
+  
+  .about {
+    background-color: #000000;
+  }
+  
+  .descricao {
+    text-align: center;
+  }
+  
+  .descricao h2 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .equipe {
+    background-color: #e0e0e0;
+  }
+  
+  #imagem1 {
+    width: 20%;
+    height: 200px;
+  }
+  
+  .w50 {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .contentBox h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .contentBox p {
+    margin-left: 3px;
+    color: #000000;
+  }
+  
+  .separacao {
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .headin h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .body-total {
+    display: flex;
+    flex-direction: column;
+  }
+  .body-box {
+    background-color: #d8d8d8;
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3),
+      5px 5px 5px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text {
+    margin: 20px 0 0 40px;
+    width: 70%;
+  }
+  
+  .text2 {
+    margin: 20px 20px 0 0;
+    padding-left: 70px;
+  }
+  
+  .container-box {
+    background-color: #e0e0e0;
+  }
+  
+  #logo1 {
+    padding-left: 1px;
+    padding-top: 10px;
+    width: 30%;
+  }
+  
+  #icones-sociais:hover {
+    color: #ca9e67;
+    transition: 0.5s;
+  }
+  
+  .about .heading h2::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ca9e67;
+    display: block;
+    margin: 3px auto;
+  }
+  
+  .container-box h2::after {
+    content: "";
+    width: 200px;
+    height: 2px;
+    background: #ca9e67;
+    display: block;
+    margin: 3px auto;
+  }
+  
+  .rodape {
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .rodape p {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  header .menu a {
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  header .menu a:hover {
+    color: #ca9e67;
+    transition: 0.5s;
+  }
+  
+  /*.card {
+    border-radius: 5px;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    margin: 60px 30px;
+  }
+  
+  .card .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: 1s ease-in-out;
+    backface-visibility: hidden;
+    transform: perspective(500px) rotateY(0deg);
+  }
+  
+  .card .face.front {
+    border-radius: 5px;
+  }
+  
+  .card:hover .face.front {
+    transform: perspective(500px) rotateY(180deg);
+  }
+  
+  .card .face.back {
+    border-radius: 5px;
+    background: #363636;
+    transform: perspective(500px) rotateY(180deg);
+  }
+  
+  .card .face.back p {
+    color: #fff;
+  }
+  
+  .card:hover .face.back {
+    transform: perspective(500px) rotateY(360deg);
+  }*/
+  
+  .produtos h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .produtos h2::after {
+    content: "";
+    width: 200px;
+    height: 2px;
+    background: #ca9e67;
+    display: block;
+    margin: 3px auto;
+  }
+  
+  .imagem-produtos {
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+  }
+  
+  .face.back p {
+    text-align: center;
+  }
+  
+  .produtos {
+    background-color: #363636;
+  }
+  
+  .card {
+    border-radius: 5px;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 60px 30px;
+  }
+  
+  .card .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transition: 1s ease-in-out;
+  }
+  
+  .card .face.front {
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1000;
+  }
+  
+  .card:hover .face.front {
+    opacity: 0;
+    transition: 2s;
+  }
+  
+  .card .face.back {
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  .card .face.back p {
+    color: #fff;
+  }
+  
+  .card:hover .face.back {
+    opacity: 1;
+    transition: 2s;
+  }
+  
