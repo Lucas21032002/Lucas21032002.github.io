@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-first {
+  background: linear-gradient(rgba(49, 49, 49, 0.7), rgba(49, 49, 49, 0.7)),
+    url(imagens2/pexels-maria-orlova-4969856.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bold;
+}
+
+hr {
+  background-color: rgb(189, 186, 186);
+}
+
+.nav {
+  width: 99%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+a:active, a:visited, a:checked, a:hover{
+  color: white;
+}
+
+.text-container {
+  display: flex;
+  width: 600px;
+  margin: 45px auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.text-container h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  color: white;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  height: 300px;
+}
+
+.header-about {
+  display: flex;
+  padding: 35px 100px;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #c9c5c5;
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+}
+
+.card a{
+  color: white;
+  text-decoration: none;
+}
+
+.card h3 {
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #ca9e67;
+  padding: 40px;
+}
+
+.card-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+    url(imagens2/pexels-mídia-897271.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+    url(imagens2/pexels-karolina-grabowska-4210342.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+    url(imagens2/pexels-nick-demou-1319460.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutUs {
+  height: 100vh;
+}
+.about-text {
+  display: flex;
+}
+
+.text-left {
+  width: 50%;
+  justify-content: left;
+  align-items: center;
+  padding: 40px;
+}
+
+.images-right {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.img-rigth {
+  width: 170px;
+  height: 250px;
+  background-image: url(imagens2/barba.png);
+  background-size: cover;
+  background-position: center;
+  margin: 40px auto;
+}
+.card-info {
+  width: 170px;
+  height: 250px;
+  border: 6px solid #ca9e67;
+  background-size: cover;
+  background-position: center;
+  margin: 40px 20px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-content{
+  padding: 50px;
+}
+
+.text-content h1{
+  color: #ca9e67;
+  font-weight: bold;
+}
+
+.text-content hr{
+  width: 150px;
+  background-color: #ca9e67;
+  border: none;
+  opacity: 1;
+}
+.text-content p{
+  margin-bottom: 35px;
+}
+
+.text-content a{
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ca9e67;
+  padding: 10px;
+}
+
+
+/*ESTILO DOS DETALHES*/
+
+button {
+  color: white;
+  border: none;
+  padding: 10px;
+  background-color: #ca9e67;
+}
+
+.button1 {
+  width: 300px;
+  height:50px;
+  padding: auto;  
+  font-weight: bold;
+}
+
+.info-text hr{
+  background-color: #ca9e67;
+  height: 3px;
+  border: none;
+  opacity: 1;
+}
+
+.clients{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+
+.left{background: linear-gradient(rgba(49, 49, 49, 0.7), rgba(49, 49, 49, 0.7)),
+  url(imagens2/pexels-karolina-grabowska-4210342.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.rigth{
+  background-color: #ca9e67;
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+}
+
+.rigth h1{
+  color:white;
+  margin-top: 80px;
+}
+
+.rigth p{
+  color: white;
+}
+
+.rigth hr{
+  background-color: white;
+  opacity: 1;
+}
+
+.rodape{
+  display: flex;
+  background-color: #181616;
+  height: 225px;
+  justify-content: center;
+}
+
+.icones-sociais{  
+  margin-top: 25px;
+  color: #f5f5f5;
+  text-align: center;
+}
+.icones-sociais hr{
+  opacity: 1;
+  color: white;
+  border: none;
+}
+
+/* CSS DAS OUTRAS PAGINAS */
+
+.banner{
+  display: grid;
+  grid-template-columns:  1fr 1fr ;
+}
+
+.banner .box{
+  height: 100vh;
+}
+
